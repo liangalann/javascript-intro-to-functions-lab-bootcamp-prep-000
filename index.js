@@ -5,3 +5,15 @@ function shout(string) {
 function whisper(string) {
   return string.toLowerCase()
 }
+
+function sayHiToGrandma(string) {
+  if string.toLowerCase === string
+  console.log("I can't hear you!");
+  else if string.toUpperCase === string
+  console.log("YES INDEED"){
+  else {
+  console.log("I love you, too.")
+  }
+
+  }
+}
