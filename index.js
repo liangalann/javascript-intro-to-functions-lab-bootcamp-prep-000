@@ -18,3 +18,13 @@ function logWhisper(string) {
   lowercase = string.toLowerCase()
   console.log(lowercase);
 }
+
+function sayHiToGrandma(string) {
+  if string.toLowerCase() === string {
+    return "I can't hear you!";
+  } if string.toUppercase() === string {
+    return 'YES INDEED!';
+  } if string === 'I love you, Grandma.' {
+    return 'I love you, too.';
+  }
+}
