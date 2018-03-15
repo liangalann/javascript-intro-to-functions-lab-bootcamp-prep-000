@@ -13,3 +13,8 @@ function logShout(string){
   uppercase = string.toUpperCase()
   console.log(uppercase);
 }
+
+function logWhisper(string) {
+  lowercase = string.toLowerCase()
+  console.log(lowercase);
+}
