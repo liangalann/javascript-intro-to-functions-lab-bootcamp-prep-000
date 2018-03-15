@@ -6,8 +6,8 @@ function whisper(string) {
   return string.toLowerCase()
 }
 
-function sayHiToGrandma(whisper) {
-  var whisper = 'hello'
-  whisper.toLowercase() === whisper
+function sayHiToGrandma(string) {
+  var lowercase = 'hello'
+  lowercase.toLowercase() === lowercase
   console.log("I can't hear you!")
 }
